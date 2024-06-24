@@ -1,0 +1,197 @@
+@import url("./cards.css");
+@import url("./header.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c6c6c6;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer .students,
+footer .coordinators {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px; /* Ajuste o padding conforme necessário para aumentar o tamanho */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-decoration: none;
+    color: white;
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: 2px solid #007bff; /* Borda do botão */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Transições suaves */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #0056b3; /* Cor da borda do botão ao passar o mouse */
+}
+
+.abaporu {
+    width: 180px;
+}
+
+.semana {
+    width: 175px;
+}
+
+.texto1 {
+    font-size: 20px;
+}
+
+.texto2 {
+    font-size: 20px;
+}
+
+.drummond {
+    width: 180px;;
+}
+
+.texto3 {
+    font-size: 14.7px;
+}
+
+.anita-malfatti {
+    width: 180px;
+}
+
+.texto4 {
+    font-size: 17px;
+}
+
+.antropofagia {
+    width: 185px;
+}
+
+.texto5 {
+    font-size: 16px;
+}
+
+.grupodoscinco {
+    width: 180px;
+}
+
+.texto6 {
+    font-size: 15px;
+}
+
+.cecilia {
+    width: 180px;
+}
+
+.texto7 {
+    font-size: 15px;
+}
+
+.clarice {
+    width: 180px;
+}
+
+.texto8 {
+    font-size: 16px;
+}
+
+.manuel {
+    width: 180px;
+}
+
+.texto9 {
+    font-size: 14px;
+}
+
+.oswald {
+    width: 150px;
+}
+
+.texto10 {
+    font-size: 14px;
+}
+
+.mario {
+    width: 180px;
+}
+
+.texto11 {
+    font-size: 14px;
+}
+
+.tarsila {
+    width: 180px;
+}
+
+.texto12 {
+    font-size: 16px;
+}
+
+.cincomoças {
+    width: 180px;
+}
+
+.texto13 {
+    font-size: 16px;
+}
+
+.retirantes {
+    width: 180px;
+}
+
+.texto14 {
+    font-size: 16px;
+}
+
+.operários {
+    width: 180px;
+}
+
+.texto15 {
+    font-size: 14.7px;
+}
+
+.tropical {
+    width: 180px;
+}
+
+.texto16 {
+    font-size: 13px;
+}

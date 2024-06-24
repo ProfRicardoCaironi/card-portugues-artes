@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regras do Jogo da Memória</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    footer {
+      max-width: 700px;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      line-height: 1.6;
+      overflow: hidden;
+    }
+    footer p {
+      text-align: left;
+    }
+    footer p:first-child {
+      text-align: left;
+    }
+    button {
+      display: block;
+      margin: 0 auto;
+      font-weight: bold; 
+      font-size: 1.2em; 
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <p><b style="font-size: 1.5em; background-color: red; border: 4px solid yellow; padding: 5px; color: white;">Regras do Jogo da Memória:</b>
+      <br><br>
+      <br>
+      <b>Objetivo:</b> Encontrar todos os pares de cartas correspondentes.
+      <br>
+      <b>Número de Jogadores:</b> O jogo pode ser jogado apenas por 1 jogador por vez.
+      <br><br>
+      <b>Regras do Jogo:</b>
+      <br>
+      Para jogar, você deve virar duas cartas. Se as duas cartas viradas se complementarem, elas não poderão mais ser clicadas.
+      <br>
+      Se as duas cartas viradas não se complementarem, elas voltarão ao normal.
+      <br>
+      O jogador deve tentar lembrar onde estão localizadas as diferentes cartas para fazer pares em suas futuras jogadas.
+      <br><br>
+      <b>Fim do Jogo:</b>
+      O jogo termina quando todos os pares de cartas foram encontrados.
+    </p>
+    <a href="cards.html" target="_blank">
+      <button>Ir para o Jogo da Memória</button>
+    </a>
+  </footer>
+</body>
+</html>
